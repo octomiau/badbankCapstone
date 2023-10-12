@@ -26,14 +26,19 @@ function TransactionsList() {
 
 
     useEffect(() => {
-        // Function to play the audio track once
-        function playAudioOnce() {
-            const audio = new Audio('admin.wav'); // Replace with the actual audio file path
-            audio.play();
-        }
-        // Call the function to play audio when the component mounts
-        playAudioOnce();
-    }, []);
+  // Function to play the audio track once
+  function playAudioOnce() {
+    const audio = new Audio('admin.wav'); // Replace with the actual audio file path or URL
+    audio.play()
+      .catch(error => {
+        console.error("Error playing audio:", error);
+      });
+  }
+
+  // Call the function to play audio when the component mounts
+  playAudioOnce();
+}, []);
+
 
 
     return (
