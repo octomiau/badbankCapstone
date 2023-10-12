@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Bad Bank Admin Dashboard
+
+Welcome to the Good Bank Admin Dashboard, a React web application designed for administrators to view transactional data of users and simulate a potential security breach for demo fun purposes. 
+<img src="./public/githubScreen.png">
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
