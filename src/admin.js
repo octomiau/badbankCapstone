@@ -51,10 +51,11 @@ function TransactionsList() {
                 />
 
 
-            
-            <button className="custom-button" onClick={() => alert('Are you shure you want to continue?')}>
-                    <img src= "adminButton.png" className="img-fluid" alt="Button" />
-            </button> 
+            <a href="https://urchin-app-z69mh.ondigitalocean.app/" target="_blank" rel="noopener noreferrer">
+                <button className="custom-button" onClick={() => alert('Are you shure you want to continue?')}>
+                        <img src= "adminButton.png" className="img-fluid" alt="Button" />
+                </button> 
+            </a>   
             
                         
             </div>
